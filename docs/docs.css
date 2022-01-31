@@ -1,6 +1,18 @@
+.docs-container{
+    box-sizing: border-box;
+    display: flex;
+}
+.page-content{
+    padding: 2rem;
+}
+.title{
+    font-size: 3rem;
+}
+.subtext{
+
+}
 .menu{
     background-color: #012f33;
-    position: fixed;
     left: 0;
     padding: 20px;
     width: 250px;
