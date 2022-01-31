@@ -1,0 +1,23 @@
+.docs-container{
+    box-sizing: border-box;
+    display: flex;
+}
+.page-content{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 3rem;
+}
+.subtext{
+    display: block;
+    color: grey;
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin: 1.5rem 0px 1.5rem 0px;
+}
+.example{
+    font-size: 1.6rem;
+    margin: 0px 0px 30px 0px;
+}

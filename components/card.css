@@ -1,8 +1,3 @@
-.grid-cards{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-}
 .container-card{
     background: ghostwhite;
     border-radius: 3px;
@@ -10,13 +5,9 @@
     padding: 0px 0px 10px 0px;
     display: flex;
     flex-direction: column;
-    position: relative;
     height: max-content;
 }
-.flex{
-    display: flex;
-}
-.title{
+.card-title{
     font-size: 1.3rem;
     font-weight: 500;
     margin: 20px 0px 0px 0px;
@@ -24,24 +15,12 @@
 .img{
     border-radius: 3px;
 }
-.relative{
-    position: relative;
-}
-.margintop{
-    margin-top: 20px;
-}
 .paragh{
     color: grey;
     margin: 10px 0px 0px 0px;
 }
-.content{
+.card-content{
     margin: 20px 20px 0px 20px;
-}
-.absolute{
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 20px;
-    color: white;
 }
 .white{ color: white; }
 .purple{
