@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .container-docs{
     width: 100vw;
@@ -17,10 +18,12 @@ body{
     display: block;
     color: grey;
     font-size: 1.3rem;
-    font-weight: 100;
+    font-weight: 300;
     margin: 1.5rem 0px 1.5rem 0px;
 }
 .example{
     font-size: 1.6rem;
-    margin: 0px 0px 30px 0px;
+}
+iframe{
+    margin: 4rem 0px 0px 0px;
 }

@@ -25,6 +25,7 @@
 .brandname{
     margin: 0px 0px 0px 20px;
     font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
 }
 .header-options>*:hover{
     background: rgb(7, 95, 95);
