@@ -2,11 +2,11 @@ body{
     margin: 0;
 }
 .container-docs{
-    display: flex;
-    margin: 4rem 0px 0px 300px;
+    width: 100vw;
 }
 .page-content{
     padding: 2rem;
+    margin: 64px 0px 0px 300px;
     display: flex;
     flex-direction: column;
 }
