@@ -1,6 +1,8 @@
 .docs-container{
     box-sizing: border-box;
     display: flex;
+    margin: 0px 0px 0px 300px;
+
 }
 .page-content{
     padding: 2rem;
