@@ -1,0 +1,33 @@
+.container-header{
+    background: rgb(5, 78, 78);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    padding: 1.2rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 2;
+    align-items: center;
+}
+.header-options{
+    display: flex;
+    justify-content: space-around;
+}
+.header-options>*{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+.brandname{
+    margin: 0px 0px 0px 20px;
+    font-size: 2rem;
+}
+.header-options>*:hover{
+    background: rgb(7, 95, 95);
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
