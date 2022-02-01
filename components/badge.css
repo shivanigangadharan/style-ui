@@ -1,0 +1,45 @@
+.container-badge{
+    margin: 3rem 0px 0px 0px;
+}
+.badge-icon{
+    font-size: 2rem;
+    position: relative;
+}
+.badge-number{
+    background: dodgerblue;
+    color: white;
+    height: 1rem;
+    width: 1rem;
+    font-size: 0.8rem;
+    border-radius: 100%;
+    padding: 1px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.badge-status{
+    width: 0.7rem;
+    height: 0.7rem;
+    background: limegreen;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    overflow: visible;
+    border: 2px solid white;
+    border-radius: 999px;
+}
+
+/* this class will be removed later, when merged with avatar PR */
+.avatar-icon{
+    padding: 1rem;
+    background: lightgrey;
+    color: grey;
+    border-radius: 999px;
+    font-size: 1.5rem;
+    position: relative;
+    margin: 0px 0px 0px 3rem;
+}
