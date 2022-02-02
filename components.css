@@ -4,13 +4,16 @@
 @import url("./components/header.css");
 @import url("./components/avatar.css");
 @import url("./components/badge.css");
+@import url("./components/button.css");
 
 :root{
-    --darkteal: #003333;
+    --darkteal: #012222;
+    --teal: #054e4e;;
     --lightgrey: #d3d3d3;
     --grey: #808080;
     --white: #ffffff;
     --rounded: 999px;
     --lightround: 4px;
+    --blue: dodgerblue;
 }
 

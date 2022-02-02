@@ -31,10 +31,11 @@ body{
     justify-content: space-around;
     gap: 4rem;
     width: max-content;
-    margin: 3rem 0px 0px 0px;
+    margin: 2rem 0px 0px 0px;
     border: 1px solid var(--lightgrey);
     border-radius: var(--lightround);
 }
 iframe{
     margin: 4rem 0px 0px 0px;
+    border-radius: var(--lightround);
 }
