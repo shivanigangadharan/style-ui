@@ -1,26 +1,26 @@
 .alert{
-    width: max-content;
-    padding: 1rem 1.5rem 1rem 1.5rem;
-    display: flex;
-    justify-content: space-around;
     align-items: center;
+    border-radius: var(--lightround);
+    display: flex;
     font-size: 1.1rem;
     gap: 1rem;
-    border-radius: var(--lightround);
+    justify-content: space-around;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    width: max-content;
 }
 .error{
-    color: var(--darkred);
     background: var(--lightred);
+    color: var(--darkred);
 }
 .warning{
-    color: var(--darkorange);
     background: var(--lightorange);
+    color: var(--darkorange);
 }
 .info{
-    color: var(--darkblue);
     background: var(--lightblue);
+    color: var(--darkblue);
 }
 .success{
-    color: var(--darkgreen);
     background: var(--lightgreen);
+    color: var(--darkgreen);
 }

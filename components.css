@@ -7,19 +7,19 @@
 @import url("./components/alert.css");
 
 :root{
-    --darkteal: #003333;
-    --lightgrey: #d3d3d3;
-    --grey: #808080;
-    --white: #ffffff;
-    --rounded: 999px;
-    --lightround: 4px;
-    --darkred: #8b0000;
-    --lightred: #f08080c5;
-    --darkorange: #ff8c00;
-    --lightorange: #f8ea6d98;
     --darkblue: #00008b;
-    --lightblue: #add8e6;
     --darkgreen: #006400;
+    --darkorange: #ff8c00;
+    --darkred: #8b0000;
+    --darkteal: #003333;
+    --grey: #808080;
+    --lightblue: #add8e6;
     --lightgreen: #90ee90;
+    --lightgrey: #d3d3d3;
+    --lightorange: #f8ea6d98;
+    --lightred: #f08080c5;
+    --lightround: 4px;
+    --rounded: 999px;
+    --white: #ffffff;
 }
 

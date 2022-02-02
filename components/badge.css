@@ -3,30 +3,30 @@
     position: relative;
 }
 .badge-number{
+    align-items: center;
     background: dodgerblue;
-    color: white;
-    height: 1rem;
-    width: 1rem;
-    font-size: 0.8rem;
     border-radius: 100%;
+    color: white;
+    display: flex;
+    font-size: 0.8rem;
+    height: 1rem;
+    justify-content: center;
+    overflow: visible;
     padding: 1px;
     position: absolute;
-    top: -10px;
     right: -10px;
-    overflow: visible;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    top: -10px;
+    width: 1rem;
 }
 .badge-status{
-    width: 0.7rem;
-    height: 0.7rem;
     background: limegreen;
-    position: absolute;
-    top: 1px;
-    right: 1px;
-    overflow: visible;
-    border: 2px solid white;
     border-radius: 999px;
+    border: 2px solid white;
+    height: 0.7rem;
+    overflow: visible;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: 0.7rem;
 }
 
