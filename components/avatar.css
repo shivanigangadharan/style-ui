@@ -1,5 +1,4 @@
 .container-avatar{
-    margin: 2.5rem 0px 0px 0px;
     display: flex;
     align-items: center;
     gap: 30px;
@@ -13,6 +12,7 @@
     color: var(--grey);
     border-radius: var(--rounded);
     font-size: 1.5rem;
+    margin: 0px;
 }
 .avatar-text{
     color: var(--white);

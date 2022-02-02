@@ -24,6 +24,17 @@ body{
 .example{
     font-size: 1.6rem;
 }
+.example-box{
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 4rem;
+    width: max-content;
+    margin: 3rem 0px 0px 0px;
+    border: 1px solid var(--lightgrey);
+    border-radius: var(--lightround);
+}
 iframe{
     margin: 4rem 0px 0px 0px;
 }
