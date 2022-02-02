@@ -1,0 +1,23 @@
+.container-avatar{
+    margin: 2.5rem 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.avatar-img{
+    border-radius: var(--rounded);
+}
+.avatar-icon{
+    padding: 1.5rem;
+    background: var(--lightgrey);
+    color: var(--grey);
+    border-radius: var(--rounded);
+    font-size: 1.5rem;
+}
+.avatar-text{
+    color: var(--white);
+    background: var(--darkteal);
+    padding: 1.5rem;
+    border-radius: var(--rounded);
+    font-size: 1.5rem;
+}
