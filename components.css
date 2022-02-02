@@ -13,5 +13,13 @@
     --white: #ffffff;
     --rounded: 999px;
     --lightround: 4px;
+    --darkred: #8b0000;
+    --lightred: #f08080c5;
+    --darkorange: #ff8c00;
+    --lightorange: #f8ea6d98;
+    --darkblue: #00008b;
+    --lightblue: #add8e6;
+    --darkgreen: #006400;
+    --lightgreen: #90ee90;
 }
 
