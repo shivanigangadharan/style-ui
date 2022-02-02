@@ -5,19 +5,19 @@
     gap: 30px;
 }
 .avatar-img{
-    border-radius: 999px;
+    border-radius: var(--rounded);
 }
 .avatar-icon{
     padding: 1.5rem;
-    background: lightgrey;
-    color: grey;
-    border-radius: 999px;
+    background: var(--lightgrey);
+    color: var(--grey);
+    border-radius: var(--rounded);
     font-size: 1.5rem;
 }
 .avatar-text{
-    color: white;
-    background: rgb(0, 51, 51);
+    color: var(--white);
+    background: var(--darkteal);
     padding: 1.5rem;
-    border-radius: 999px;
+    border-radius: var(--rounded);
     font-size: 1.5rem;
 }
