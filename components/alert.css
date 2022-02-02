@@ -1,0 +1,26 @@
+.alert{
+    width: max-content;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.1rem;
+    gap: 1rem;
+    border-radius: var(--lightround);
+}
+.error{
+    color: darkred;
+    background: rgba(240, 128, 128, 0.774);
+}
+.warning{
+    color: darkorange;
+    background: rgba(248, 234, 109, 0.596);
+}
+.info{
+    color: darkblue;
+    background: lightblue;
+}
+.success{
+    color: darkgreen;
+    background: lightgreen;
+}

@@ -23,8 +23,8 @@
     height: 0.7rem;
     background: limegreen;
     position: absolute;
-    top: -1px;
-    right: -1px;
+    top: 1px;
+    right: 1px;
     overflow: visible;
     border: 2px solid white;
     border-radius: 999px;
