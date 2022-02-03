@@ -29,7 +29,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
     gap: 4rem;
     margin: 3rem 0px 0px 0px;
     border: 1px solid var(--lightgrey);
