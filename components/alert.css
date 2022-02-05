@@ -1,0 +1,26 @@
+.alert{
+    align-items: center;
+    border-radius: var(--lightround);
+    display: flex;
+    font-size: 1.1rem;
+    gap: 1rem;
+    justify-content: space-around;
+    padding: 1rem 1.5rem;
+    width: max-content;
+}
+.error{
+    background: var(--lightred);
+    color: var(--darkred);
+}
+.warning{
+    background: var(--lightorange);
+    color: var(--darkorange);
+}
+.info{
+    background: var(--lightblue);
+    color: var(--darkblue);
+}
+.success{
+    background: var(--lightgreen);
+    color: var(--darkgreen);
+}

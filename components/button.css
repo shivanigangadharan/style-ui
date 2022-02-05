@@ -1,0 +1,68 @@
+.btn{
+    outline: none;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: var(--lightround);
+}
+.btn:hover{
+    cursor: pointer;
+}
+.primary{
+    background: var(--darkteal);
+    color: var(--white);
+}
+.primary:hover{
+    background: var(--teal);
+    transition-duration: 0.2s;
+}
+.secondary{
+    background: var(--white);
+    border: 1px solid var(--darkteal);
+    color: var(--darkteal);
+}
+.secondary:hover{
+    background: var(--teal);
+    transition-duration: 0.3s;
+    color: var(--white);
+}
+.linked{
+    background: var(--white);
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    /* text-decoration: none; */
+}
+.linked:hover{
+    background: var(--blue);
+    transition-duration: 0.2s;
+    color: var(--white);
+}
+.btn-icon{
+    font-size: 1rem;
+    padding: 1rem;
+    height: 1rem;
+    width: 1rem;
+}
+.btn-icon:hover{
+    background: rgb(230, 230, 230);
+    border-radius: var(--rounded);
+    cursor: pointer;
+}
+.btn-float{
+    height: 2rem;
+    width: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background: var(--teal);
+    color: var(--white);
+    border-radius: var(--rounded);
+    box-shadow: 2px 2px 10px 5px var(--lightgrey);
+}
+.fixed{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
