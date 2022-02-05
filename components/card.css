@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     height: max-content;
+    position: relative;
 }
 .card-title{
     font-size: 1.3rem;
@@ -19,7 +20,7 @@
     color: grey;
     margin: 10px 0px 0px 0px;
 }
-.card-content{
+.content{
     margin: 20px 20px 0px 20px;
 }
 .white{ color: white; }
@@ -58,4 +59,32 @@
 .icon-card:hover{
     background: rgb(230, 230, 230);
     border-radius: 100px;
+}
+.card-badge{
+    position: absolute;
+    top: -0.4rem;
+    right: -0.4rem;
+    background: var(--darkteal);
+    color: var(--white);
+    border-radius: var(--lightround);
+    padding: 0.2rem 0.4rem;
+}
+.card-dismiss{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    border-radius: var(--rounded);
+    color: var(--white);
+    font-size: 1.2rem;
+}
+.card-dismiss:hover{
+    cursor: pointer;
+}
+.absolute{
+    position: absolute;
+    bottom: 9rem;
+    color: var(--white);
+}
+.relative{
+    position: relative;
 }
