@@ -4,6 +4,7 @@
 @import url("./components/header.css");
 @import url("./components/avatar.css");
 @import url("./components/badge.css");
+@import url("./components/button.css");
 @import url("./components/alert.css");
 @import url("./components/input.css");
 
@@ -13,12 +14,12 @@
     --darkgreen: #006400;
     --darkorange: #ff8c00;
     --darkred: #8b0000;
-    --darkteal: #003333;
+    --darkteal: #012222;
     --lightblue: #add8e6;
     --lightgreen: #90ee90;
-    --lightgrey: #d3d3d3;
     --lightorange: #f8ea6d98;
     --lightred: #f08080c5;
+    --lightgrey: #d3d3d3;
     --teal: #054e4e;
     --red: #DD2D4A;
     --grey: #808080;
@@ -26,6 +27,7 @@
   
     /* border radius */
     --lightround: 4px;
+    --blue: dodgerblue;
     --rounded: 999px;
 
     /* spacing */
