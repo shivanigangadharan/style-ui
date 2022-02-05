@@ -5,15 +5,25 @@
 @import url("./components/avatar.css");
 @import url("./components/badge.css");
 @import url("./components/button.css");
+@import url("./components/alert.css");
 
 :root{
     --darkteal: #012222;
     --teal: #054e4e;;
     --lightgrey: #d3d3d3;
+    --darkblue: #00008b;
+    --darkgreen: #006400;
+    --darkorange: #ff8c00;
+    --darkred: #8b0000;
     --grey: #808080;
-    --white: #ffffff;
-    --rounded: 999px;
+    --lightblue: #add8e6;
+    --lightgreen: #90ee90;
+    --lightorange: #f8ea6d98;
+    --lightred: #f08080c5;
     --lightround: 4px;
     --blue: dodgerblue;
+    --rounded: 999px;
+    --white: #ffffff;
+
 }
 
