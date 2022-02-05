@@ -38,4 +38,5 @@ body{
 iframe{
     margin: 4rem 0px 0px 0px;
     max-height: 400px;
+    max-width: 100%;
 }
