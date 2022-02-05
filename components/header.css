@@ -1,11 +1,11 @@
 .container-header{
-    background: rgb(5, 78, 78);
+    background: var(--teal);
     color: white;
     display: flex;
     justify-content: space-between;
     font-size: 1.3rem;
     padding: 1.2rem;
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
     box-sizing: border-box;
@@ -17,10 +17,10 @@
     justify-content: space-around;
 }
 .header-options>*{
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 4px;
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 .brandname{
     margin: 0px 0px 0px 20px;
@@ -28,7 +28,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .header-options>*:hover{
-    background: rgb(7, 95, 95);
+    background: var(--lightteal);
     cursor: pointer;
     transition-duration: 0.4s;
 }

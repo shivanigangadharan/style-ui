@@ -7,7 +7,7 @@ body{
 }
 .page-content{
     padding: 2rem;
-    margin: 64px 0px 0px 300px;
+    margin: 3rem 0px 0px 300px;
     display: flex;
     flex-direction: column;
 }
@@ -38,7 +38,7 @@ body{
 .relative{
     position: relative;
 }
-iframe{
+.carbon{
     margin: 4rem 0px 0px 0px;
     border-radius: var(--lightround);
     max-height: 400px;
