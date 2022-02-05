@@ -4,25 +4,35 @@
 @import url("./components/header.css");
 @import url("./components/avatar.css");
 @import url("./components/badge.css");
+@import url("./components/alert.css");
 @import url("./components/input.css");
 
 :root{
     /* colors */
+    --darkblue: #00008b;
+    --darkgreen: #006400;
+    --darkorange: #ff8c00;
+    --darkred: #8b0000;
+    --darkteal: #003333;
+    --lightblue: #add8e6;
+    --lightgreen: #90ee90;
+    --lightgrey: #d3d3d3;
+    --lightorange: #f8ea6d98;
+    --lightred: #f08080c5;
     --teal: #054e4e;
     --red: #DD2D4A;
-    --darkteal: #003333;
-    --lightgrey: #d3d3d3;
     --grey: #808080;
     --white: #ffffff;
-    --rounded: 999px;
-
+  
     /* border radius */
     --lightround: 4px;
+    --rounded: 999px;
 
     /* spacing */
     --space-xxxs: 0.2rem;
     --space-xxs: 0.3rem;
     --space-xs: 0.9rem;
     --space-s: 1rem;
+   
 }
 
