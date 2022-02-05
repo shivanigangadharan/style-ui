@@ -7,6 +7,7 @@
 @import url("./components/input.css");
 
 :root{
+    /* colors */
     --teal: #054e4e;
     --red: #DD2D4A;
     --darkteal: #003333;
@@ -14,6 +15,14 @@
     --grey: #808080;
     --white: #ffffff;
     --rounded: 999px;
+
+    /* border radius */
     --lightround: 4px;
+
+    /* spacing */
+    --space-xxxs: 0.2rem;
+    --space-xxs: 0.3rem;
+    --space-xs: 0.9rem;
+    --space-s: 1rem;
 }
 

@@ -9,7 +9,7 @@
     outline: none;
     border:none;
     color: var(--darkteal);
-    padding: 0.9rem 1rem;
+    padding: var(--space-xs) var(--space-s);
     font-size: 1rem;
 }
 .input:hover{
