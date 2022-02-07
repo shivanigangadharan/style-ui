@@ -15,6 +15,7 @@
 .header-options{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .header-options>*{
     padding: 0.5rem 1rem;

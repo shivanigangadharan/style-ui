@@ -26,7 +26,6 @@
     --red: #DD2D4A;
     --grey: #808080;
     --white: #ffffff;
-
     /* border radius */
     --lightround: 4px;
     --blue: dodgerblue;
@@ -37,6 +36,8 @@
     --space-xxs: 0.3rem;
     --space-xs: 0.9rem;
     --space-s: 1rem;
-
+}
+.flex{
+    display: flex;
 }
 
