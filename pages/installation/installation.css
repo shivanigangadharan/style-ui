@@ -1,0 +1,42 @@
+.inst-container{
+    padding: 50px;
+}
+.inst-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inst-brand{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.inst-logo{
+    width: 5rem;
+}
+.brand-name{
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--darkteal);
+}
+.inst-subtext{
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 2rem 0px 0px 0px;
+}
+.inst-page-content{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.heading1{
+    font-weight: 300;
+}
+.inst-text{
+    font-size: 1.2rem;
+
+}
+.carbon{
+    margin: 3rem 0px 0px 0px;
+    border-radius: var(--lightround);
+    max-height: 400px;
+    max-width: 100%;
+}
