@@ -13,8 +13,11 @@
     font-weight: 500;
     margin: 20px 0px 0px 0px;
 }
-.img{
-    border-radius: 3px;
+.sm-img{
+    border-radius: var(--lightround);
+}
+.flex{
+    display: flex;
 }
 .paragh{
     color: grey;
@@ -87,4 +90,7 @@
 }
 .relative{
     position: relative;
+}
+.shadow{
+    box-shadow: 3px 3px 5px 3px var(--lightgrey);
 }
