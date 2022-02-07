@@ -38,5 +38,4 @@ body{
 .home-links>*{
     border: 1px solid var(--white) !important;
     margin: 10px;
-    text-decoration: none !important;
 }
