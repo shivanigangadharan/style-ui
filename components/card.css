@@ -16,9 +16,6 @@
 .sm-img{
     border-radius: var(--lightround);
 }
-.flex{
-    display: flex;
-}
 .paragh{
     color: grey;
     margin: 10px 0px 0px 0px;
