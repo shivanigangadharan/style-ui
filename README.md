@@ -35,5 +35,3 @@ To get the styles of the components, add the following line of code in the head 
   * [Snackbar](https://style-ui.netlify.app/pages/docs/docs.html#snackbar)
   * [Text Utility](https://style-ui.netlify.app/pages/docs/docs.html#text-utils)
  
-## Demo
-
