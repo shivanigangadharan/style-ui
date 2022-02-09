@@ -9,10 +9,10 @@
     border-radius: var(--lightround);
 }
 .retry{
-    color: rgb(198, 118, 255);
+    color: var(--lavender);
 }
 .retry:hover{
-    color: rgb(215, 160, 255);
+    color: var(--lightlavender);
     cursor: pointer;
 }
 .x{
