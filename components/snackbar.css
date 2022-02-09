@@ -1,0 +1,30 @@
+.container-snackbar{
+    background: var(--darkgrey);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: max-content;
+    padding: 10px;
+    border-radius: var(--lightround);
+}
+.retry{
+    color: rgb(198, 118, 255);
+}
+.retry:hover{
+    color: rgb(215, 160, 255);
+    cursor: pointer;
+}
+.x{
+    height: 1rem;
+    width: 1rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.x:hover{
+    background: var(--grey);
+    border-radius: var(--rounded);
+    cursor: pointer;
+}
