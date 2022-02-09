@@ -5,6 +5,9 @@ body{
 .container-docs{
     padding: 3rem 0px 0px 0px;
 }
+.container-textutils{
+    width: 100%;
+}
 .page-content{
     padding: 2rem;
     margin: 3rem 0px 0px 300px;
