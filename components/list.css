@@ -1,0 +1,20 @@
+.container-list{
+    border-left: 2px solid var(--teal);
+}
+ul{
+    /* list-style-type: none; */
+    color: var(--teal);
+}
+li{
+    margin: 0.8rem 0;
+}
+.container-stack{
+    list-style-type: none;
+    color: var(--darkteal);
+}
+.stack-item{
+    border: 0.1rem solid var(--teal);
+    padding: 1rem 2rem;
+    width: clamp(300px, 50vw, 800px);
+    text-align: left;
+}
