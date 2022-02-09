@@ -1,0 +1,21 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 500;
+}
+.p-lg{
+    font-size: 1.55rem;
+}
+.p-md{
+    font-size: 1.2rem;
+}
+.p-sm{
+    font-size: 0.75rem;
+}
+.grey-text{
+    color: var(--grey);
+}
+.centered{
+    text-align: center;
+}

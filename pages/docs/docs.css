@@ -1,9 +1,13 @@
 body{
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    scroll-behavior: smooth;
 }
 .container-docs{
     padding: 3rem 0px 0px 0px;
+}
+.container-textutils{
+    width: 100%;
 }
 .page-content{
     padding: 2rem;
