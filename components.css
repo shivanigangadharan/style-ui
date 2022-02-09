@@ -8,6 +8,7 @@
 @import url("./components/button.css");
 @import url("./components/alert.css");
 @import url("./components/input.css");
+@import url("./components/modal.css");
 
 :root{
     /* colors */
@@ -29,6 +30,8 @@
     --red: #DD2D4A;
     --grey: #808080;
     --white: #ffffff;
+    --black: #000000;
+    --black-op : #00000066;
 
     /* border radius */
     --lightround: 4px;

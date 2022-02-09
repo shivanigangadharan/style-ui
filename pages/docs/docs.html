@@ -54,10 +54,12 @@
             <a class="menu-item" href="#input">
                 Input
             </a>
+            <a class="menu-item" href="#modal">
+                Modal
+            </a>
             <a class="menu-item" href="#snackbar">
                 Snackbar
             </a>
-
         </div>
         <div class="page-content" id="alert">
             <div>
@@ -413,12 +415,41 @@
             <iframe class="carbon" src="https://carbon.now.sh/embed?bg=rgba%2817%2C17%2C41%2C1%29&t=blackboard&wt=none&l=auto&width=845.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container-snackbar%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522text%2522%253E%2520Can%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522retry%2522%253E%2520RETRY%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522x%2522%253E%2520X%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
                 style="width: 846px; height: 151px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
             </iframe>
-
+        </div>
+        <iframe width="0" height="0" id="modal"></iframe>
+    </div>
+  
+    <div class="page-content">
+        <div>
+            <text class="title"> Modal</text>
+            <text class="subtext"> The modal component provides a solid foundation for creating dialogs, popovers, lightboxes, or whatever else.
+            </text>
+            <text class="example"> Example</text>
+            <div class="example-box">
+                <button class="btn primary" id="openmodal">Open dialog box</button>
+                <center>
+                    <div class="container-modal" id="modalBox">
+                        <div class="content-modal">
+                            <h1>Modal heading</h1>
+                            <text class="subtext">
+                                Modal body text
+                                <br />
+                            </text>
+                            <div class="options end">
+                                <text class="purple" id="action1"> ACTION 1 </text>
+                                <text class="purple" id="action2"> ACTION 2 </text>
+                            </div>
+                        </div>
+                    </div>
+                </center>
+            </div>
+            <iframe class="carbon" src="https://carbon.now.sh/embed?bg=rgba%2817%2C17%2C41%2C1%29&t=blackboard&wt=none&l=auto&width=845.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary%2522%2520id%253D%2522openmodal%2522%253EOpen%2520dialog%2520box%253C%252Fbutton%253E%250A%253Ccenter%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container-modal%2522%2520id%253D%2522modalBox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522content-modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EModal%2520heading%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctext%2520class%253D%2522subtext%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Modal%2520body%2520text%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbr%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ftext%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522options%2520end%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctext%2520class%253D%2522purple%2522%2520id%253D%2522action1%2522%253E%2520ACTION%25201%2520%253C%252Ftext%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctext%2520class%253D%2522purple%2522%2520id%253D%2522action2%2522%253E%2520ACTION%25202%2520%253C%252Ftext%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fcenter%253E"
+                style="width: 846px; height: 356px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+            </iframe>
         </div>
     </div>
-
-
-    <script src="https://kit.fontawesome.com/9903823db4.js" crossorigin="anonymous"></script>
+    <script src="../../components/modal.js"> </script>
+    <script src="https://kit.fontawesome.com/9903823db4.js" crossorigin="anonymous "></script>
     <script src="../../components/card.js"></script>
 </body>
 
