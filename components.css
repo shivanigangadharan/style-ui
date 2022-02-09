@@ -12,6 +12,7 @@
 @import url("./components/text-utils.css");
 @import url("./components/list.css");
 @import url("./components/navigation.css");
+@import url("./components/rating.css");
 
 :root{
     /* colors */
@@ -32,6 +33,7 @@
     --lavender: #c676ff;
     --red: #DD2D4A;
     --grey: #808080;
+    --yellow: #ffd700;
     --white: #ffffff;
     --black: #000000;
     --black-op : #00000066;
