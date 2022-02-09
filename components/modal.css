@@ -6,8 +6,8 @@
     top: 0;
     left: 0;
     padding-top: 30vh;
-    background: rgb(0,0,0);
-    background: #00000066;
+    background: var(--black);
+    background: var(--black-op);
     position: fixed;
     display: none;
 }
@@ -17,11 +17,11 @@
 .content-modal{
     background: white;
     padding: 10px 20px 20px 20px;
-    width: 300px;
+    width: clamp(300px, 50vw, 800px);
     height: max-content;
     border-radius: 4px;
-    box-shadow: 3px 3px 20px 10px #00000023;
-    /* display: flex; */
+    box-shadow: 3px 3px 20px 10px var(--darkgrey);
+    display: flex;
     flex-direction: column;
     gap: 20px;
     text-align: left;
