@@ -50,9 +50,13 @@
             </a>
             <a class="menu-item" href="#image">
                 Image
-                <a class="menu-item" href="#input">
-                    Input
-                </a>
+            </a>
+            <a class="menu-item" href="#input">
+                Input
+            </a>
+            <a class="menu-item" href="#modal">
+                Modal
+            </a>
         </div>
         <div class="page-content" id="alert">
             <div>
@@ -387,12 +391,45 @@
             <iframe class="carbon" src="https://carbon.now.sh/embed?bg=rgba%2817%2C17%2C41%2C1%29&t=blackboard&wt=none&l=auto&width=845.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522column%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520standard%2522%2520placeholder%253D%2522Standard%2520input%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520outlined%2522%2520placeholder%253D%2522Outlined%2520input%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520filled%2522%2520placeholder%253D%2522Filled%2520input%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522column%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520std-error%2522%2520placeholder%253D%2522Standard%2520error%2520input%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520out-error%2522%2520placeholder%253D%2522Outlined%2520error%2520input%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520fill-error%2522%2520placeholder%253D%2522Filled%2520error%2520input%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
                 style="width: 846px; height: 466px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
             </iframe>
+        </div>
+        <iframe width="0" height="0" id="modal"></iframe>
+    </div>
+    <div class="page-content">
+        <div>
+            <text class="title"> Modal</text>
+            <text class="subtext"> The modal component provides a solid foundation for creating dialogs, popovers, lightboxes, or whatever else.
+            </text>
+            <text class="example"> Example</text>
+
+            <div class="example-box">
+                <button class="btn primary" id="openmodal">Open dialog box</button>
+                <center>
+                    <div class="container-modal" id="modal">
+                        <div class="content-modal">
+                            <h1>Dialog header</h1>
+                            <text class="subtext">
+                                Dialog body text
+                                <br />
+                            </text>
+                            <div class="options end">
+                                <text class="purple" id="action1"> ACTION 1 </text>
+                                <text class="purple" id="action2"> ACTION 2 </text>
+                            </div>
+                        </div>
+                    </div>
+                </center>
+            </div>
+
+            <iframe class="carbon " src="https://carbon.now.sh/embed?bg=rgba%2817%2C17%2C41%2C1%29&t=blackboard&wt=none&l=auto&width=845.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522column%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520standard%2522%2520placeholder%253D%2522Standard%2520input%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520outlined%2522%2520placeholder%253D%2522Outlined%2520input%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520filled%2522%2520placeholder%253D%2522Filled%2520input%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522column%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520std-error%2522%2520placeholder%253D%2522Standard%2520error%2520input%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520out-error%2522%2520placeholder%253D%2522Outlined%2520error%2520input%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520fill-error%2522%2520placeholder%253D%2522Filled%2520error%2520input%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E "
+                style="width: 846px; height: 466px; border:0; transform: scale(1); overflow:hidden; " sandbox="allow-scripts
+                        allow-same-origin ">
+            </iframe>
 
         </div>
     </div>
 
-
-    <script src="https://kit.fontawesome.com/9903823db4.js" crossorigin="anonymous"></script>
+    <script src="../../components/modal.js"> </script>
+    <script src="https://kit.fontawesome.com/9903823db4.js" crossorigin="anonymous "></script>
     <script src="../../components/card.js"></script>
 </body>
 
