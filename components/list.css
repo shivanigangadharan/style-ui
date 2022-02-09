@@ -13,8 +13,11 @@ li{
     color: var(--darkteal);
 }
 .stack-item{
-    border: 0.1rem solid var(--teal);
+    border: 0.1rem solid var(--white);
+    background: var(--lightgrey);
+    border-radius: var(--lightround);
     padding: 1rem 2rem;
     width: clamp(300px, 50vw, 800px);
     text-align: left;
+    box-shadow: 1px 1px 3px 1px var(--lightgrey);
 }
