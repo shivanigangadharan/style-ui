@@ -4,7 +4,7 @@
 }
 .badge-number{
     align-items: center;
-    background: dodgerblue;
+    background: var(--red);
     border-radius: 100%;
     color: white;
     display: flex;
