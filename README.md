@@ -18,7 +18,7 @@ To get the styles of the components, add the following line of code in the head 
   <script src="https://kit.fontawesome.com/9903823db4.js" crossorigin="anonymous"></script>
 ```
 
-## Components Defined in BoostMat  -
+## Components Defined in Style UI  -
 
   * [Alert](https://style-ui.netlify.app/pages/docs/docs.html#)
   * [Avatar](https://style-ui.netlify.app/pages/docs/docs.html#avatar)
