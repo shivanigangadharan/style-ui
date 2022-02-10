@@ -22,8 +22,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 1.35rem;
+    gap: 20px;
 }
-.nav-options>*{
+.nav-icon:hover{
+    cursor: pointer;
+    color: var(--grey);
+    transition-duration: 0.4s;
+}
+.nav-item{
     padding: 0.5rem 1rem;
     border-radius: 4px;
     text-decoration: none;
@@ -34,7 +41,7 @@
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
 }
-.nav-options>*:hover{
+.nav-item:hover{
     background: var(--lightgrey);
     cursor: pointer;
     transition-duration: 0.4s;
