@@ -26,6 +26,14 @@
     transition-duration: 0.3s;
     color: var(--white);
 }
+.login{
+    background: var(--blue);
+    color: var(--white);
+    padding: 0.5rem 2rem;
+    border: 1px solid var(--blue);
+    border-radius: var(--lightround);
+    font-size: 1rem;
+}
 .linked{
     background: var(--white);
     border: 1px solid var(--blue);
