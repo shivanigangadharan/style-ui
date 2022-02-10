@@ -1,6 +1,6 @@
 .container-nav{
-    background: var(--teal);
-    color: white;
+    background: var(--white);
+    color: var(--darkgrey);
     display: flex;
     justify-content: space-between;
     font-size: 1.3rem;
@@ -8,7 +8,7 @@
     box-sizing: border-box;
     z-index: 2;
     align-items: center;
-    width: 90%;
+    box-shadow: 1px 1px 2px 1px var(--lightgrey);
     /* For user :
     position: fixed;
     top: 0;
@@ -26,7 +26,7 @@
     padding: 0.5rem 1rem;
     border-radius: 4px;
     text-decoration: none;
-    color: var(--white);
+    color: var(--darkgrey);
 }
 .brandname{
     margin-left: 20px;
@@ -34,7 +34,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .nav-options>*:hover{
-    background: var(--lightteal);
+    background: var(--lightgrey);
     cursor: pointer;
     transition-duration: 0.4s;
 }
