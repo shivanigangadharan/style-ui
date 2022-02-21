@@ -17,7 +17,7 @@ li{
     background: var(--lightgrey);
     border-radius: var(--lightround);
     padding: 1rem 2rem;
-    width: clamp(300px, 50vw, 800px);
+    width: clamp(18.75rem, 50vw, 800px);
     text-align: left;
     box-shadow: 1px 1px 3px 1px var(--lightgrey);
 }

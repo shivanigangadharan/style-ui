@@ -27,7 +27,7 @@ body{
 .home-subtext{
     color: var(--lightgrey);
     font-size: clamp(1.1rem, 0.9182rem + 0.5818vw, 1.5rem);
-    max-width: clamp(300px, 80%, 700px);
+    max-width: clamp(18.75rem, 80%, 700px);
 }
 .home-options>*{
     margin: 10px;
