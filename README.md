@@ -32,8 +32,9 @@ To get the styles of the components, add the following line of code in the head 
   10. [Modal](https://style-ui.netlify.app/pages/docs/docs.html#modal) - The modal component provides a solid foundation for creating dialogs, popovers, lightboxes, or whatever else.
   11. [Navigation](https://style-ui.netlify.app/pages/docs/docs.html#navigation) - Navigation bar is used to navigate through different pages in the web application with ease.
   12. [Rating](https://style-ui.netlify.app/pages/docs/docs.html#rating) - Ratings provide insight regarding others' opinions and experiences, and can allow the user to submit a rating of their own.
-  13. [Snackbar](https://style-ui.netlify.app/pages/docs/docs.html#snackbar) - Snackbars provide brief notifications. The component is also known as a toast.
-  14. [Text Utility](https://style-ui.netlify.app/pages/docs/docs.html#text-utils) - Use text utilities to maintain consistency in your text throughout your project.
+  13. [Slider](https://style-ui.netlify.app/pages/docs/docs.html#slider) - Sliders allow users to make selections from a range of values.
+  14. [Snackbar](https://style-ui.netlify.app/pages/docs/docs.html#snackbar) - Snackbars provide brief notifications. The component is also known as a toast.
+  15. [Text Utility](https://style-ui.netlify.app/pages/docs/docs.html#text-utils) - Use text utilities to maintain consistency in your text throughout your project.
 
 ## Homepage
 ![image](https://user-images.githubusercontent.com/30795425/155002699-45afd3b4-578c-491e-91c2-c3011df3bfaa.png)
