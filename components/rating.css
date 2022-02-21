@@ -1,3 +1,7 @@
 .star{
+    color: var(--grey);
+    cursor: pointer;
+}
+.star:hover{
     color: var(--yellow);
 }

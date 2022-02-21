@@ -9,7 +9,7 @@
     top: 0;
     width: 100%;
     box-sizing: border-box;
-    z-index: 2;
+    z-index: 3;
     align-items: center;
 }
 .header-options{

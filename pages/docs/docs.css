@@ -49,3 +49,8 @@ body{
     max-height: 400px;
     max-width: 100%;
 }
+.cards-carbon{
+    border-radius: var(--lightround);
+    max-height: 400px;
+    max-width: 100%;
+}
